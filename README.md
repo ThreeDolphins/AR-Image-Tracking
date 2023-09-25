@@ -17,6 +17,5 @@ This project uses Unity and AR Foundation which is provided by Unity3D. No other
 Solution Aproach:
 1. Used Unity AR foundation->Image Tracking feature to track image in realtime. Trackable image resolution is 256x256 due to ARFoundation limitations/error (Which need to be explored).
 2. Getting color/pixel information from trackable image is done through Unity Texture2D GetPixel.
-3. Particle Manager class hold list of Particle object, which handles animation, position etc. for each Particle object. Unity Default Quad mesh is used with custom shader and animation done through script. no Library used for Particle system.
-4. To have modular aproach, AppManager, TextureManager, UIManager class are used. However there are not enough data availabe for each manager class. Where AppManager class is a Singleton.
-5.   
+3. Particle Manager class hold list of Particle object, which handles animation, position etc. for each Particle object. Unity Default Quad mesh is used with custom shader and animation done through script. Color for each particle is received from trackable image pixel and set to mesh->vertex color, which is consumed in shader to render different color. no Library used for Particle system.
+4. To have modular aproach, AppManager, TextureManager, UIManager class are used. However there are not enough data availabe for each manager class. Where AppManager class is a Singleton.   
