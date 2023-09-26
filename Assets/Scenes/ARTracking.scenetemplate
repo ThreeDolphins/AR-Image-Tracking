@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13966, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ARTracking
+  m_EditorClassIdentifier: 
+  templateScene: {fileID: 102900000, guid: 6bdce89659816455b9f906fc62d19910, type: 3}
+  templateName: 
+  description: 
+  preview: {fileID: 0}
+  dependencies:
+  - dependency: {fileID: 8502765642112072837, guid: 75d2b1fe4f1de184784f174d041405b7,
+      type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 7b8bfaee8f8631c4789ac62373cbc2d4, type: 3}
+    instantiationMode: 1
+  - dependency: {fileID: 2800000, guid: 561b753954ed70f46bf8eea305de6259, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 5212898514254021853, guid: 5c9536aa86945ec46a0cceb6ad6adcaf,
+      type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 11400000, guid: aee189106855b0d45ac2469f744113e1, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 2800000, guid: 8236c695e72414e7889fb3f4d8226fde, type: 3}
+    instantiationMode: 1
+  - dependency: {fileID: 2100000, guid: d414c5e402cbeb34ba76a90fc62c4711, type: 2}
+    instantiationMode: 0
+  templatePipeline: {fileID: 0}
+  badge: {fileID: 0}
+  addToDefaults: 0
