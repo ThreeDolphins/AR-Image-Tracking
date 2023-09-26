@@ -2,9 +2,10 @@ This is an AR project assigned by Arthrex for AR technical interview.
 
 Installation Steps:
 1. Download and install Unity3D 2022.3.5f1
-2. Download AR Foundation 5.0.7 from Package Manager. 
-3. Download Google AR Core XR Plugin 5.0.7 from Package Manager.
-4. Clone this repo and build it.
+2. Clone this repo, Open Unity Project.
+3. Download AR Foundation 5.0.7 from Package Manager. 
+4. Download Google AR Core XR Plugin 5.0.7 from Package Manager.
+
 
 Run APK/Build FIles:
 1. AR.APK file is included in "Build" folder.
