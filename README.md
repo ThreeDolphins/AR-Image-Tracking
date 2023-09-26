@@ -2,13 +2,15 @@ This is an AR project assigned by Arthrex for AR technical interview.
 
 Installation Steps:
 1. Download and install Unity3D 2022.3.5f1
-2. Clone this repo, Open Unity Project.
-3. Download AR Foundation 5.0.7 from Package Manager. 
-4. Download Google AR Core XR Plugin 5.0.7 from Package Manager.
+2. Clone this repo, Open Unity Project. Open Scene - ARTracking
+3. Check & Download AR Foundation 5.0.7 from Package Manager. 
+4. Check & Download Google AR Core XR Plugin 5.0.7 from Package Manager.
+5. Goto Build Settings->select Android->Switch platform
+
 
 
 Run APK/Build FIles:
-1. AR.APK file is included in "Build" folder.
+1. AR.APK file is included in "Build" folder. Reference image to track also available in same folder.
 2. Copy APK file to your android device and install it.
 3. Make sure you have "Installation from unknown source" is selected and your android device have AR feature available.
 
